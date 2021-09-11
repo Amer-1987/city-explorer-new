@@ -128,14 +128,19 @@ class App extends React.Component {
 
         {this.state.showError && <p>Error, sorry for that</p>}
 
-        <p>
+        <p className='temp'>
           {this.state.locationName}
           <br />
-          "description": "Low of {this.state.low_temp}, high of  {this.state.high_temp}
+          "description of weather": 
+          <br/>
+           Low of tempreture : 
+           {this.state.low_temp} C
+           <br/>
+            high of tempreture : {this.state.high_temp} C
           <br />
 
           with {this.state.description} ,
-
+          <br />
           "date": {this.state.date}
         </p>
       </>
