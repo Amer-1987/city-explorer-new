@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #8fdba8;
+}
+section{
+  padding: 15px;
+  background-color: rgb(15, 14, 14);
+  color : white
+}
+
+.temp{
+  width : 50%;
+  float : right;
+font-size : 40px;
+background-color: rgb(243, 221, 188);
+color: rgb(116, 68, 5);
+font-weight: bold;
+}
