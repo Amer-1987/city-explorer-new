@@ -119,7 +119,7 @@ class App extends React.Component {
     // const city3= event.target.cityName.value;
     // console.log(city3);
 
-    const SERVER_LINK = 'http://localhost:3030';
+    const SERVER_LINK = 'http://localhost:3050';
 
     const weatherBitArr = await axios.get(`${SERVER_LINK}/weather?city=${this.state.cityName3}`);
 
@@ -135,7 +135,7 @@ class App extends React.Component {
     // const city3 = event.target.cityName.value;
     // console.log(city3);
 
-    const SERVER_LINK_Movie = 'http://localhost:3030';
+    const SERVER_LINK_Movie = 'http://localhost:3050';
 
     const movieArr = await axios.get(`${SERVER_LINK_Movie}/movies?query=${this.state.cityName3}`);
 
